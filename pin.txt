@@ -1,0 +1,12 @@
+10 outputvoltage
+12 cs
+11 sck
+13 sd
+A4 SDA
+A5 SCL
+
+
+0-200
+0-255
+0-500
+
