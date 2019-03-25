@@ -24,9 +24,9 @@ void loop()
     Serial.println( thermocouple.readTemperature() );
     delay( 500 );
   }
-  //temp = 0;
+  //temp = 250;
   temp = thermocouple.readTemperature();
-  sentem = ((temp*256)/200);
+  sentem = ((temp*256)/300);
   Serial.println( sentem);
   analogWrite(10, sentem);
   lcd.setCursor(2, 0);
